@@ -1,4 +1,4 @@
-describe("", () => {
+describe("mover os dragDrop", () => {
   it("deve arrastar o cypress para a caixinha do node", () => {
     cy.Entrar("Drag and Drop");
 
