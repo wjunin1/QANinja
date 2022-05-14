@@ -1,6 +1,5 @@
 it('Deve logar com sucesso', () => {
-    cy.visit('https://training-wheels-qaninja.herokuapp.com/');
-    cy.contains('login').click();
+    cy.Entrar('login');
     cy.get('#nickId').type('papitorocks');
     cy.get('#passId').type('pwd123');
     cy.get("button[type=submit]").click();

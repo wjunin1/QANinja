@@ -23,3 +23,9 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+
+Cypress.Commands.add('Entrar', (pagina) => {
+    cy.visit('https://training-wheels-qaninja.herokuapp.com/');
+    cy.contains(pagina).click();
+  })
