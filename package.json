@@ -1,0 +1,28 @@
+{
+  "name": "qaninja",
+  "version": "1.0.0",
+  "description": "Projeto cypress QANinja",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open, npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjunin1/QANinja.git"
+  },
+  "keywords": [
+    "cypress",
+    "nodejs",
+    "training-wheels",
+    "qaninja"
+  ],
+  "author": "Wellington Junior",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wjunin1/QANinja/issues"
+  },
+  "homepage": "https://github.com/wjunin1/QANinja#readme",
+  "devDependencies": {
+    "cypress": "^9.6.1"
+  }
+}
