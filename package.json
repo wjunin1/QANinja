@@ -4,7 +4,7 @@
   "description": "Projeto cypress QANinja",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open, npx cypress run"
+    "test": "npx cypress open"
   },
   "repository": {
     "type": "git",
