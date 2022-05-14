@@ -4,7 +4,7 @@ it("Selecionar a data de nascimento", () => {
   const date = {
     month: "nov",
     year: "1989",
-    day: "23",
+    day: /^23$/,
   };
 
   cy.get(".datetimepicker-dummy-input").click();
