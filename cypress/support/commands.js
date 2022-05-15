@@ -23,3 +23,10 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+import { baseUrl } from "../config/url.json";
+
+Cypress.Commands.add('Entrar', (pagina) => {
+    cy.visit(baseUrl);
+    cy.contains(pagina).click();
+  })
